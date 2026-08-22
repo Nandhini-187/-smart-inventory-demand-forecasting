@@ -1,0 +1,17 @@
+{
+    "model_type": "XGBoost Regressor",
+    "target": "target_next_day",
+    "features": [
+        "lag_1",
+        "lag_7",
+        "rolling_7",
+        "stockout_lag_1",
+        "stockout_lag_7",
+        "stockout_rolling_7"
+    ],
+    "prediction_horizon": "next_day",
+    "validation_mae": 0.4383,
+    "validation_rmse": 0.6829,
+    "baseline_mae": 0.5746,
+    "improvement_vs_baseline_percent": 23.72
+}
