@@ -13,5 +13,10 @@
     "validation_mae": 0.4383,
     "validation_rmse": 0.6829,
     "baseline_mae": 0.5746,
-    "improvement_vs_baseline_percent": 23.72
+    "improvement_vs_baseline_percent": 23.72,
+    "baseline_description": "stale_lag1_persistence (t-1 predicting t+1)",
+    "true_prev_day_mae": 0.5152,
+    "rolling_7_mae": 0.4469,
+    "rf_mae": 0.4396,
+    "headline_finding": "XGBoost beats a stale baseline by 23.72% and a same-day baseline by 14.92%, but beats a plain 7-day mean by only 1.91% and Random Forest by about 0.3%."
 }

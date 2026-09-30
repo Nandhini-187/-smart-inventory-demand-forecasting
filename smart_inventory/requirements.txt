@@ -1,8 +1,9 @@
-streamlit
-pandas
-numpy
-xgboost
-scikit-learn
-plotly
-datasets
-pyarrow
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+xgboost==3.4.1
+scikit-learn>=1.3.0
+plotly>=5.18.0
+datasets>=2.16.0
+pyarrow>=14.0.0
+psutil>=5.9.0

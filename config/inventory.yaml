@@ -1,0 +1,7 @@
+assumptions:
+  default_lead_time_mean_days: 2.0
+  default_lead_time_std_days: 0.5
+  z_service_level: 1.645
+  review_period_days: 1.0
+  carrying_cost_rate: 0.20
+  stockout_penalty_multiplier: 3.0

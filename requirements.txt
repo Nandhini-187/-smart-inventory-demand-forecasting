@@ -1,0 +1,1 @@
+-r smart_inventory/requirements.txt
